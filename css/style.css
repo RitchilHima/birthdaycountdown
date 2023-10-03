@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+#name{
+    color: yellow;
+}
+
+#name:hover{
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+body{
+    margin: 0;
+    background-image: url(../assets/Screenshot\ 2023-10-03\ 195050.png);
+    background-size: cover;
+    background-position: center;
+    min-width: 100vh;
+    /* min-height: 170px; */
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h1{
+    margin-top: 10 px;
+    font-size: 2rem;
+}
+
+.Countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text{
+    font-size: 1rem;
+    line-height: 1;
+    margin:  0 2rem;
+}
